@@ -26,7 +26,7 @@ def train_and_load_model():
         nltk.download("wordnet")
 
     # Load intents
-    with open('intents.json', 'r', encoding='utf-8') as f:
+    with open('dataset.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     lemmatizer = WordNetLemmatizer()
